@@ -4,7 +4,8 @@
 module.exports = function(sequelize, DataTypes) {
     var User = sequelize.define('AUTH_Users', {
             Username: {type:DataTypes.STRING, primaryKey:true},
-            Password: DataTypes.STRING
+            Password: DataTypes.STRING,
+            ResourceList: DataTypes.STRING
         }
     );
 
