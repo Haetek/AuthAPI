@@ -1,0 +1,25 @@
+{
+  "name": "authapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DBOperations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haetek/AuthAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haetek/AuthAPI/issues"
+  },
+  "homepage": "https://github.com/Haetek/AuthAPI#readme",
+  "dependencies": {
+    "config": "^1.20.1",
+    "pg": "^4.5.5",
+    "restify": "^4.0.4",
+    "sequelize": "^3.23.0"
+  }
+}

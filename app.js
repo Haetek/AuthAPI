@@ -18,7 +18,7 @@ server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
 
-server.post('/Authentication/API/:version/Auth/Register', function(req, res, next)
+server.post('/Authentication/API/Auth/Register', function(req, res, next)
 {
     try
     {

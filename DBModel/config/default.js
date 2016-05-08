@@ -9,5 +9,6 @@ module.exports = {
         "Port":5432,
         "Host":"127.0.0.1",
         "Database":"authdb"
-    }
+    },
+   "DIMITH" : "444"
 };
